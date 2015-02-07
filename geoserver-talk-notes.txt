@@ -1,0 +1,22 @@
+Topic ! - data types and stores
+
+
+1. Much of this cribbed from the Geoserver Documentation Pages
+
+http://docs.geoserver.org/stable/en/user/gettingstarted/shapefile-quickstart/index.html
+
+2. Data hierarchy
+	a. Workspace - a container used to group similar layers together.
+		i. Name - unique identifier. E.g. pulmap at Princeton or druid at Stanford
+		ii. Namespace URI - is an identifier describing the project. Usually an associated URL
+	b. Data Store - a source for the data served out by Geoserver
+		i. Divided into Vector and Raster sources
+		ib. Describe vector?
+		ii. Vector sources might include shapefiles, tables in a database, csv files
+			- In our geoserver instace, we store our data in Postgresql database.
+		ii. Raster sources include GeoTiff, ArcGrid coverage, rasters stored in a database
+		iii. Plugins expand the range of available datasources. For instance, data stored in proprietary ESRI systems
+			like ArcSDE or File Geodatabases can be used with a plugin. MIT
+		iV. 
+
+		These souces

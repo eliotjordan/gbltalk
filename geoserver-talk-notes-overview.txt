@@ -1,0 +1,35 @@
+Notes for Code4Lib workshop: part 1 - geoserver
+
+1. Different Data
+	a - Data Stores
+	b - Data Types
+
+2. Importing data layers
+3. Automated via REST API
+	a - python
+	b - java
+	c - ruby
+	d - data import plugin
+4. Documentation
+5. Admin support
+
+- Mention jbdc catalog vs. data dir catolog
+	- better for clustering
+	- safety
+	- performance with large collections
+
+6. gotchas and other points
+ 	a. difficulty with Ruby and Python libs
+ 		- mighht just use pyhon resquest scripts ect
+ 	b. verision 2.7 and backported 2.6 issues with xml naming
+ 	c. create python code
+
+
+Resources:
+
+1. Geoserver docs
+2. OpenGeo (Boundless)
+3. Other tutorials
+
+
+Docker? Probably lump in with GBL section
